@@ -8,7 +8,7 @@ module.exports = {
 
     setInterval(() => {
       keepSckAlive();
-    }, 30000)
+    }, 10000)
 
     wss.on('connection', ws => {
       console.log('connected');
